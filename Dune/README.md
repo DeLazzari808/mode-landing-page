@@ -1,69 +1,41 @@
-# 🎨 Fancy - Plataforma de Conexão para o Mundo da Moda
+# Mode - Landing Page
 
-![Fancy App](./screenshots/login-screen.png)
+Landing page moderna e responsiva para o projeto Mode, uma plataforma fictícia que conecta profissionais da indústria da moda. Este projeto foi desenvolvido para fins de portfólio, demonstrando habilidades em front-end, design responsivo e uso de Tailwind CSS.
 
-## 📱 Sobre o Projeto
+## Sobre o Projeto
 
-Fancy é uma plataforma moderna que conecta profissionais do mundo da moda, incluindo modelos, marcas, agências e designers. O projeto foi desenvolvido com React, Vite e Tailwind CSS, oferecendo uma experiência de usuário fluida e elegante.
+O Mode é uma proposta de solução digital para centralizar processos, simplificar conexões e otimizar oportunidades no setor da moda. A landing page apresenta o conceito, funcionalidades e diferenciais da plataforma, além de um formulário para registro antecipado.
 
-## ✨ Funcionalidades
+## Funcionalidades em Destaque
 
-- **Autenticação Personalizada**: Login adaptado para diferentes tipos de usuários (Modelos, Marcas, Agências, Designers)
-- **Feed de Eventos**: Visualização de castings, desfiles e oportunidades
-- **Criação de Campanhas**: Interface intuitiva para marcas e agências criarem novas oportunidades
-- **Perfil Profissional**: Portfólio, estatísticas e informações de contato
-- **Sistema de Notificações**: Mantenha-se atualizado sobre novas oportunidades
-- **Design Responsivo**: Experiência otimizada para desktop e mobile
+- Design moderno, elegante e tema escuro
+- Totalmente responsivo para todos os dispositivos
+- Animações suaves de entrada das seções
+- Navegação fluida entre seções
+- Formulário de registro para acesso antecipado
+- Seção de eventos e agenda inteligente
+- Destaque para uso de Inteligência Artificial
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
-- React 18
-- Vite
-- Tailwind CSS
-- Lucide Icons
-- PostCSS
-- ESLint
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- Tailwind CSS (via CDN)
+- Google Fonts
 
-## 📸 Screenshots
+## Visualização
 
-### Tela de Login
-![Login Screen](./screenshots/login-screen.png)
+[Coloque aqui o link do site publicado]
 
-### Feed de Eventos
-![Event Feed](./screenshots/event-feed.png)
+## Estrutura de Arquivos
 
-### Perfil do Usuário
-![User Profile](./screenshots/user-profile.png)
+- `index.html` — Estrutura principal da landing page
+- `styles.css` — Estilos personalizados
+- `script.js` — Animações e interações
+- `assets/` — Vídeos e imagens de fundo
+- `Dune/` — Protótipo do aplicativo (prints e código do app)
 
-### Criação de Campanha
-![Create Campaign](./screenshots/create-campaign.png)
+## Licença
 
-## 🎯 Estrutura do Projeto
-
-```
-fancy/
-├── src/
-│   ├── components/     # Componentes reutilizáveis
-│   ├── screens/        # Telas da aplicação
-│   ├── config.js       # Configurações e dados mock
-│   ├── App.jsx         # Componente principal
-│   └── main.jsx        # Ponto de entrada
-├── public/            # Arquivos estáticos
-└── index.html         # Template HTML
-```
-
-## 🤝 Contribuindo
-
-1. Faça um Fork do projeto
-2. Crie uma Branch para sua Feature (`git checkout -b feature/AmazingFeature`)
-3. Faça o Commit das suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Faça o Push para a Branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
-
-## 📝 Licença
-
-Este projeto é proprietário e confidencial. Todos os direitos reservados. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-## 👥 Autores
-
-- **DLZ** - [GitHub](https://github.com/DeLazzari808)
+Este projeto está disponível para fins de estudo e portfólio.
