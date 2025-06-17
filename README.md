@@ -15,7 +15,6 @@ O Mode é uma proposta de solução digital para centralizar processos, simplifi
 - Formulário de registro para acesso antecipado
 - Seção de eventos e agenda inteligente
 - Destaque para uso de Inteligência Artificial
-- Prints ilustrativos dos principais fluxos
 
 ## Tecnologias Utilizadas
 
@@ -25,12 +24,9 @@ O Mode é uma proposta de solução digital para centralizar processos, simplifi
 - Tailwind CSS (via CDN)
 - Google Fonts
 
-## Como Visualizar
+## Visualização
 
-1. Faça o clone deste repositório ou baixe os arquivos
-2. Abra o arquivo `index.html` em seu navegador
-
-Não é necessário instalar dependências ou rodar servidor, pois a página utiliza recursos via CDN.
+[Coloque aqui o link do site publicado]
 
 ## Estrutura de Arquivos
 
@@ -38,15 +34,7 @@ Não é necessário instalar dependências ou rodar servidor, pois a página uti
 - `styles.css` — Estilos personalizados
 - `script.js` — Animações e interações
 - `assets/` — Vídeos e imagens de fundo
-- `Dune/screenshots/` — Prints ilustrativos da plataforma
-
-## Screenshots
-
-Veja abaixo alguns exemplos de telas presentes na pasta `Dune/screenshots/`:
-
-| Login | Feed de Eventos | Criar Campanha | Perfil do Usuário |
-|-------|-----------------|---------------|-------------------|
-| ![](Dune/screenshots/login-screen.png) | ![](Dune/screenshots/event-feed.png) | ![](Dune/screenshots/create-campaign.png) | ![](Dune/screenshots/user-profile.png) |
+- `Dune/` — Protótipo do aplicativo (prints e código do app)
 
 ## Licença
 
