@@ -12,14 +12,34 @@
 
     <header class="fixed top-0 left-0 right-0 z-50 py-4 card-bg shadow-lg border-b border-custom">
         <div class="container mx-auto px-6 flex justify-between items-center">
-            <h1 class="text-3xl font-bold highlight-text">Dune</h1>
-            <nav>
+            <h1 class="text-3xl font-bold highlight-text">Mode</h1>
+
+            <div class="md:hidden">
+                <button id="menu-btn" class="text-white focus:outline-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                    </svg>
+                </button>
+            </div>
+
+            <nav id="menu" class="hidden md:flex items-center">
                 <a href="#why-fancy" class="text-secondary hover:highlight-text px-3 py-2 rounded-md text-sm font-medium">Por quê?</a>
                 <a href="#features" class="text-secondary hover:highlight-text px-3 py-2 rounded-md text-sm font-medium">Funcionalidades</a>
                 <a href="#for-whom" class="text-secondary hover:highlight-text px-3 py-2 rounded-md text-sm font-medium">Para Quem</a>
                 <a href="#ai-feature" class="text-secondary hover:highlight-text px-3 py-2 rounded-md text-sm font-medium">IA</a>
                 <a href="#mvp" class="text-secondary hover:highlight-text px-3 py-2 rounded-md text-sm font-medium">MVP</a>
                 <a href="#cta-final" class="btn-primary ml-4 px-6 py-2 rounded-lg text-sm">Registo Antecipado</a>
+            </nav>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden">
+            <nav class="flex flex-col items-center px-2 pt-2 pb-4 space-y-2 sm:px-3 card-bg">
+                <a href="#why-fancy" class="text-secondary hover:highlight-text block w-full text-center px-3 py-2 rounded-md">Por quê?</a>
+                <a href="#features" class="text-secondary hover:highlight-text block w-full text-center px-3 py-2 rounded-md">Funcionalidades</a>
+                <a href="#for-whom" class="text-secondary hover:highlight-text block w-full text-center px-3 py-2 rounded-md">Para Quem</a>
+                <a href="#ai-feature" class="text-secondary hover:highlight-text block w-full text-center px-3 py-2 rounded-md">IA</a>
+                <a href="#mvp" class="text-secondary hover:highlight-text block w-full text-center px-3 py-2 rounded-md">MVP</a>
+                <a href="#cta-final" class="btn-primary mt-4 block w-1/2 mx-auto text-center px-6 py-2 rounded-lg">Registo Antecipado</a>
             </nav>
         </div>
     </header>
@@ -31,7 +51,7 @@
         </video>
         <div class="hero-overlay absolute inset-0 z-10"></div>
         <div class="relative z-20 p-8 rounded-lg max-w-3xl mx-auto">
-            <h1 class="text-5xl md:text-7xl font-bold highlight-text mb-4 leading-tight">Conecte. Colabore. Crie.</h1>
+            <h1 class="text-4xl sm:text-5xl md:text-7xl font-bold highlight-text mb-4 leading-tight">Conecte. Colabore. Crie.</h1>
             <h2 class="text-3xl md:text-4xl font-semibold highlight-text mb-6">Apresentando o Dune</h2>
             <p class="text-xl md:text-2xl text-secondary mb-4">
                 Uma plataforma criada para centralizar processos, simplificar conexões e otimizar oportunidades dentro da indústria da moda.
@@ -51,7 +71,7 @@
             <p class="text-lg text-secondary max-w-3xl mx-auto mb-12">
                 A indústria da moda é dinâmica e acelerada, mas ainda enfrenta desafios estruturais. Dune surge como uma solução centralizada, inteligente e orientada por eficiência para resolver os principais obstáculos do setor:
             </p>
-            <div class="grid md:grid-cols-1 lg:grid-cols-3 gap-8">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
                 <div class="card-bg p-8 rounded-xl shadow-xl border border-custom transform hover:scale-105 transition-transform duration-300">
                     <div class="icon-placeholder mx-auto mb-4">🧩</div>
                     <h3 class="text-2xl font-bold highlight-text mb-3">Informação Descentralizada</h3>

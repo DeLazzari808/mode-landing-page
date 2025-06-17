@@ -70,4 +70,30 @@ if (aiVideoTest) {
 
     const videoObserver = new IntersectionObserver(videoIntersectionCallback, videoObserverOptions);
     videoObserver.observe(aiVideoTest); // Começa a observar o elemento de vídeo
-} 
+}
+
+// --- NOVO CÓDIGO PARA O MENU MOBILE ---
+document.addEventListener('DOMContentLoaded', () => {
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    if (!menuBtn || !mobileMenu) return;
+    const navLinks = mobileMenu.querySelectorAll('a');
+
+    // Função para alternar a visibilidade do menu
+    const toggleMenu = () => {
+        mobileMenu.classList.toggle('hidden');
+    };
+
+    // Adiciona o evento de clique ao botão do menu
+    menuBtn.addEventListener('click', toggleMenu);
+
+    // Adiciona evento de clique para cada link do menu mobile
+    // para fechar o menu após clicar em um link
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            if (!mobileMenu.classList.contains('hidden')) {
+                toggleMenu();
+            }
+        });
+    });
+}); 
