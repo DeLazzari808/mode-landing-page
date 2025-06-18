@@ -26,7 +26,7 @@ O Mode é uma proposta de solução digital para centralizar processos, simplifi
 
 ## Visualização
 
-[Coloque aqui o link do site publicado]
+https://mode-7bbcf.web.app/
 
 ## Estrutura de Arquivos
 
@@ -34,7 +34,7 @@ O Mode é uma proposta de solução digital para centralizar processos, simplifi
 - `styles.css` — Estilos personalizados
 - `script.js` — Animações e interações
 - `assets/` — Vídeos e imagens de fundo
-- `Dune/` — Protótipo do aplicativo (prints e código do app)
+- `Mode/` — Protótipo do aplicativo (prints e código do app)
 
 ## Licença
 
